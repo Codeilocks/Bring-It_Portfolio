@@ -1,5 +1,9 @@
+header{
+    margin-top: 5cm;
+    background-color: deepskyblue;
+}
 body{
-    margin: 0;
+    margin-top: 5cm;
     background-color: skyblue;
     text-align: center;
 }
