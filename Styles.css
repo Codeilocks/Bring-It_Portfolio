@@ -23,6 +23,6 @@ li a{
 li a:hover{
     background-color:cadetblue;
 }
-li a:active{
-    background-color:darkseagreen;
+.active {
+    background-color: #357fcb;
 }
