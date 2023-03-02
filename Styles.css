@@ -1,14 +1,17 @@
 .header img{
     float: left;
-    top: 18px
+    position: fixed;
+    left: 2px;
+    top: 2px;
 }
 .header h1{
-    position: absolute;
+    position: relative;
     top: 30px;
-    left: 10px;
     background-color: cornflowerblue;
     color: white;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
 }
 body{
