@@ -1,6 +1,6 @@
 .header img{
     float: left;
-    position: fixed;
+    position: absolute;
     left: 2px;
     top: 2px;
 }
