@@ -3,6 +3,7 @@
     position: absolute;
     left: 2px;
     top: 2px;
+    background-color: cornflowerblue;
 }
 .header h1{
     position: relative;
