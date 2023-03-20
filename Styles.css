@@ -1,15 +1,18 @@
+.header {
+    height: 100px;
+    background-color: #357fcb;
+}
 .header img{
     float: left;
     position: absolute;
     left: 2px;
     top: 2px;
-    background-color: cornflowerblue;
 }
-.header h1{
+.header h1 {
     position: relative;
     top: 30px;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: #357fcb;
     color: white;
     font-weight: bold;
     margin-bottom: 10px;
@@ -44,9 +47,9 @@ li a{
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover{
-    background-color:cadetblue;
-}
+    li a:hover {
+        background-color: #00c2cb;
+    }
 .active {
     background-color: #357fcb;
 }
