@@ -9,17 +9,18 @@
     left: 2px;
     top: 2px;
 }
-.header h1 {
-    position: relative;
-    top: 50px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-family: georgia;
-    font-size: 40px;
-    #margin-bottom: 10px;
-    #margin-top: 10px;
-}
+    .header h1 {
+        position: relative;
+        top: 50px;
+        left: 150px;
+        text-align: left;
+        color: white;
+        font-weight: bold;
+        font-family: georgia;
+        font-size: 40px;
+        #margin-bottom: 10px;
+        #margin-top: 10px;
+    }
 h2 {
     font-family: Georgia, serif;
     font-weight: normal;
@@ -36,8 +37,9 @@ body {
     text-align: center;
     font-family: Verdana, sans-serif;
 }
-main{
-    margin-left: 50px;
+main {
+    margin-left: 250px; /*change so only subsys pages have this alignment (left and top)*/
+    margin-top: -570px;
     margin-right: 50px;
 }
 ul {
@@ -69,6 +71,5 @@ li a:hover {
 .vertical {
     height: 100%;
     overflow: auto;
-    background-color: #00c2cb;
     width: 200px;
 }
