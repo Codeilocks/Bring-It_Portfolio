@@ -73,4 +73,5 @@ li a:hover {
     height: 100%;
     overflow: auto;
     background-color: #00c2cb;
+    width: 200px;
 }
