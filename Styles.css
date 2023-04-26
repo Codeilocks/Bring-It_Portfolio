@@ -38,8 +38,7 @@ body {
     font-family: Verdana, sans-serif;
 }
 main {
-    margin-left: 250px; /*change so only subsys pages have this alignment (left and top)*/
-    margin-top: -570px;
+    margin-left: 50px; 
     margin-right: 50px;
 }
 ul {
@@ -75,4 +74,9 @@ li a:hover {
     width: 200px;
     margin-left: 0px;
     padding-left: 0px;
+}
+.contentRight {
+    margin-left: 250px; 
+    margin-top: -570px;
+    margin-right: 50px;
 }
