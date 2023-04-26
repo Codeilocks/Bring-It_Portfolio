@@ -11,8 +11,8 @@
 }
     .header h1 {
         position: relative;
-        top: 50px;
-        left: 150px;
+        top: 45px;
+        left: 200px;
         text-align: left;
         color: white;
         font-weight: bold;
@@ -46,9 +46,10 @@ ul {
     position: sticky;
     top: 0;
     list-style-type: none;
-    padding: 0;
+    padding-left: 200px;
     overflow: hidden;
     background-color: cornflowerblue;
+    margin: 0px;
 }
 .horizontal{
     float: left;
@@ -72,4 +73,6 @@ li a:hover {
     height: 100%;
     overflow: auto;
     width: 200px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
