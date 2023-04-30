@@ -50,10 +50,10 @@ ul {
     overflow: hidden;
     background-color: cornflowerblue;
     margin: 0px;
+    width: 100%;
 }
 .horizontal{
     float: left;
-    width: 100%;
 }
 li a {
     display: block;
