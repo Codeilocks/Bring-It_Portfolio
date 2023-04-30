@@ -2,11 +2,12 @@
     position: relative;
     height: 130px;
     background-color: #357fcb;
+    width: 100%;
 }
 .header img{
     float: left;
     position: absolute;
-    left: 2px;
+    left: 20px;
     top: 2px;
 }
     .header h1 {
@@ -52,6 +53,7 @@ ul {
 }
 .horizontal{
     float: left;
+    width: 100%;
 }
 li a {
     display: block;
