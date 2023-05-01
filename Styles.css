@@ -10,17 +10,17 @@
     left: 20px;
     top: 2px;
 }
-    .header h1 {
-        position: relative;
-        top: 45px;
-        left: 200px;
-        text-align: left;
-        color: white;
-        font-weight: bold;
-        font-family: georgia;
-        font-size: 40px;
-        width: 600px;
-    }
+.header h1 {
+    position: relative;
+    top: 45px;
+    left: 200px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-family: georgia;
+    font-size: 40px;
+    width: 600px;
+}
 h2 {
     font-family: Georgia, serif;
     font-weight: normal;
