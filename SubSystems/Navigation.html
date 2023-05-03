@@ -46,6 +46,14 @@
             The LiDAR mounted on the top of the robot is used to improve odometry, in order to make the autonomous drive more reliable.
             Insert image of lidar + image of lidar mapping
         </p>
+        <h3>Motor Control</h3>
+        <p>
+            We can use keyboard presses to manually control the robot and this is useful for maintanence and allowing the robot to map the hospital rooms.
+            Takes goal and is able to travel to waypoints. 
+            Uses arduino to drive motors. Pi tells arduino the cmd_vel or the key_press. THe cmd_vel and key_press is converted to microseconds the motors read and
+            allow it to move in whatever direction is required.
+            
+        </p>
     </main>
 </body>
 </html>
