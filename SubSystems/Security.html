@@ -31,33 +31,35 @@
     </ul>
     <main class="contentRight">
         <h2>Security</h2>
-        <p>the backend, technical stuff ie RFID reader, authentication, user permission levels etc</p>
-                
-                              
+         
          <h3>RBAC</h3>
         <p>
             Role Based Access Control System (RBAC) was used. It enabled us to grant user-specific permissions and restrict access to the robot's compartments. 
             The compartments only unlock when the correct RFID tag is scanned. Every RFID tag has its own user, and the users are assigned to a group. 
             For peer to peer orders the RFID tags are assigned to groups instead. 
             Admin is the superuser with all permissions. An order may only be edited or deleted only by the technician. Equipment can be ordered by nurses and doctors. Except for the admin, none of the users have access to the personal information of other employees.
-            The way RBAC operates can be described as:
+            The RBAC system has been integrated with the User Interface sub-system.
             
         </p>
                                 
         <h3>Storage</h3>
         <p>
-              The drawers are automatically opened when the authorized RFID tag is scanned. First the servo, pulls the spring of the lock mechanism, and then the linear actuator pulls the drawer.
+              The drawers are automatically opened when the authorized RFID tag is scanned. 
+              First the servo, pulls the spring of the lock mechanism, and then the linear actuator pulls the drawer.
               The lock mechanism has a spring in it that enabled us to modify its diameter, pitch and its length. 
-              The video of the system working can be found on:
-                   
+              The video of the system working can be accessed from the training video page on the portfolio.
+              The RFID reader, servo, linear actuator has been integrated with the Robot under the Robot communication repository. 
           </p>
+           <p>
+             The lock system look as:
                               
+      </p>                     
       <p>                        
             More information regarding this sub-system's code and considerations can be found in 
             <a href="https://github.com/lboroWMEME-TeamProject/RBAC.git">RBAC repository</a>,
             as well as in the <a href="https://github.com/lboroWMEME-TeamProject/RFID_SPI_communication.git">RFID_SPI_communication repository</a> which includes the CAD design.
-            The RBAC system has been integrated with the User Interface sub-system.
-            The RFID reader, servo, linear actuator has been integrated with the Robot under the Robot communication repository. 
+            
+            
      </p>
     </main>
 </body>
