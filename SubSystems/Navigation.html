@@ -37,14 +37,23 @@
             This is the framwork that allows communication between the sensors and the robot. It also acts as the link between Navigation and the Server side.
             Topic diagram???
         </p>
+        <h3>rtabmap</h3>
+        <p>
+            description of package and its role
+        </p>                  
         <h3>Kinect Camera</h3>
         <p>
-            
+            depth and 2d image. used for mapping, more about the camera
         </p>
         <h3>LiDAR</h3>
         <p>
-            The LiDAR mounted on the top of the robot is used to improve odometry, in order to make the autonomous drive more reliable.
+            The LiDAR mounted on the top of the robot is used to improve odometry, in order to make the autonomous drive more reliable. It also updates the map when it come
+            detects any obstacles, allowing for collision avoidance
             Insert image of lidar + image of lidar mapping
+        </p>
+        <h3>move_base</h3>
+        <p>
+             description of package and its role
         </p>
         <h3>Motor Control</h3>
         <p>
@@ -52,7 +61,6 @@
             Takes goal and is able to travel to waypoints. 
             Uses arduino to drive motors. Pi tells arduino the cmd_vel or the key_press. THe cmd_vel and key_press is converted to microseconds the motors read and
             allow it to move in whatever direction is required.
-            
         </p>
     </main>
 </body>
