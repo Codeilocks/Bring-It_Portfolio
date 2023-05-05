@@ -35,7 +35,9 @@
         
         <h3>ROS</h3>
         <p>
-            This is the framework that allows communication between the sensors and the robot. **More to add**
+            ROS is used to manaage the communication between the nodes used by the robot. Most notably, the camera node publishes rgb and depth frames obtained from the
+            Kinect sensor to be used by RTABMAP for visual odometry and SLAM. RTABMAP outputs a grid map of the environment that can be used by the move_base package 
+            to plan and traverse the path needed by the robot to reach it's destination. 
         </p>
                                       
         <img src="https://github.com/Codeilocks/Bring-It_Portfolio/blob/main/docs/assets/images/Navigation/rqt_graph4.png?raw=true" alt="ROS topic/nodes graph" width="1200">
