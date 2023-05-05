@@ -44,12 +44,12 @@
         <p>The role of the task manager is to manage the actions that are placed within the UI. This includes, but is not limited to:</p>
         <ul>
         <li>Placing Delivery Orders from the Inventory</li>
-        <li>Placing Collection Orders from the Inventory</li>
         <li>Placing Peer to Peer Orders</li>
+        <li>Determining Waypoints for navigation</li>
         </ul>
         <p>A full list of features can be found through this <a href="#">link</a>. The different processes of ordering can be found in the training material.</p>
         <h2>Database:</h2>
-        <p>Django has an in-built SQLite database which has been used to store all the data required for operation. Thanks to Django’s in-build ORM (Object Relational Mapper), the creation of the database and its various tables are maintained through a model. Models are easily defined through various field types, a list of which can be found <a href="#">here</a>.</p>
+        <p>Django has an in-built SQLite database which has been used to store all the data required for operation. Thanks to Django’s in-build ORM (Object Relational Mapper), the creation of the database and its various tables are maintained through a model. Models are easily defined through various field types, a list of which can be found <a href="https://docs.djangoproject.com/en/4.2/ref/models/fields/">here</a>.</p>
         <p>The database itself is relational meaning that different tables within the database can be related to one another through foreign keys allowing for a more easily manageable database as each table is linked to another. The full database schema can be found <a href="#">here</a>.</p>
         <h2>Communication:</h2>
         <p>Communication between the robot and the server is done through the use of a custom REST implementation. REST stands for Representational State Transfer and uses HTTP protocols to get access to and manipulate data from the database. Communication is done through a local network allows for hospital wide coverage for the robots as long as it is connected to that local network.</p>
