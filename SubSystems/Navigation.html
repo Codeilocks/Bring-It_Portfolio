@@ -33,38 +33,35 @@
         <h2>Navigation</h2>
         <p>Talk about the navigation subsystem on a low level, ROS, Kinect, LiDAR, nodes, communicaiton etc. The navigation subsystem within in the robot is broken dow
              into mapping, path planning, obstacle avoidance and motor control <= change the heading to this???</p>
-        <h3>ROS</h3>
+        
+        <h3>Mapping</h3>
         <p>
-            This is the framwork that allows communication between the sensors and the robot. It also acts as the link between Navigation and the Server side.
-            Topic diagram???
-        </p>
-        <h3>rtabmap</h3>
-        <p>
-            description of package and its role. include pic of nice map
+            rtabmap - description of package and its role. include pic of nice map
                               
             Supports visual and lidar SLAM (Simultaneous localization and mapping). Constructs maps through using RGB and Depth frames of the camera.
-            Creates 3d Map
+            Creates 3d Map. depth and 2d image. used for mapping, more about the camera??
         </p>
-        <h3>Kinect Camera</h3>
+        <h3>Path Planning</h3>
         <p>
-            depth and 2d image. used for mapping, more about the camera??
+           talk about move_base - description of package and its role
         </p>
-        <h3>LiDAR</h3>
+        <h3>Obstacle Avoidance</h3>
         <p>
             The LiDAR mounted on the top of the robot is used to improve odometry??, in order to make the autonomous drive more reliable. It also updates the map when it come
             detects any obstacles, allowing for collision avoidance
-            Insert image of lidar + image of lidar mapping
-        </p>
-        <h3>move_base</h3>
-        <p>
-             description of package and its role
+            Insert image of lidar + image of lidar mapping + talk about how this is integrated with rtabmap
         </p>
         <h3>Motor Control</h3>
         <p>
             We can use keyboard presses to manually control the robot and this is useful for maintanence and allowing the robot to map the hospital rooms.
             Takes goal and is able to travel to waypoints. 
             Uses arduino to drive motors. Pi tells arduino the cmd_vel or the key_press. THe cmd_vel and key_press is converted to microseconds the motors read and
-            allow it to move in whatever direction is required.
+            allow it to move in whatever direction is required. Flowchart
+        </p>
+        <h3>ROS</h3>
+        <p>
+            This is the framwork that allows communication between the sensors and the robot. It also acts as the link between Navigation and the Server side.
+            Topic diagram???
         </p>
     </main>
 </body>
