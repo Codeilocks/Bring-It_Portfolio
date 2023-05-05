@@ -33,6 +33,12 @@
         <h2>Navigation</h2>
         <p>The Navigation subsystem within the robot is broken down into 4 key aspects: Mapping, Path Planning, Obstacle Avoidance and Motor Control.</p>
         
+        <h3>ROS</h3>
+        <p>
+            This is the framework that allows communication between the sensors and the robot. It also acts as the link between Navigation and the Server side. 
+            Whats the exact stuff that is taken and given to the server side.
+            Topic diagram???
+        </p>
         <h3>Mapping</h3>
         <p>
             
@@ -41,6 +47,9 @@
             [Insert Pic of camera], [insert pic of map that its created]
 
         </p>
+       
+          <img src="https://github.com/Codeilocks/Bring-It_Portfolio/blob/main/docs/assets/images/Navigation/map%20of%20environment.jpg" alt="Map of Environment Created by Camera" width="125" height="125">
+
         <h3>Path Planning</h3>
         <p>
            talk about move_base - description of package and its role
@@ -52,17 +61,11 @@
         </p>
         <h3>Motor Control</h3>
         <p>
-            We can use keyboard presses to manually control the robot and this is useful for maintanence and allowing the robot to map the hospital rooms.
-            Takes goal and is able to travel to waypoints. 
-            Uses arduino to drive motors. Pi tells arduino the cmd_vel or the key_press. THe cmd_vel and key_press is converted to microseconds the motors read and
-            allow it to move in whatever direction is required. Flowchart
+            The Maintanence Team can use keyboard control to remotely drive the robot around the hospital, allowing it to map the rooms. For autonomous drive, 
+            The Raspberry Pi publishes velocities to the 'cmd_vel' topic. The Arduino that controls the motors recieves these velocities and drives the wheels.
+            [flowchart]
         </p>
-        <h3>ROS</h3>
-        <p>
-            This is the framework that allows communication between the sensors and the robot. It also acts as the link between Navigation and the Server side. 
-            Whats the exact stuff that is taken and given to the server side.
-            Topic diagram???
-        </p>
+        
         <p>  
             For more information, our
             <a href="https://github.com/lboroWMEME-TeamProject/Navigation/tree/main/Development%20Justifications">development justifications</a>,
