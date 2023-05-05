@@ -31,8 +31,7 @@
     </ul>
     <main class="contentRight">
         <h2>Navigation</h2>
-        <p>Talk about the navigation subsystem on a low level, ROS, Kinect, LiDAR, nodes, communicaiton etc. The navigation subsystem within in the robot is broken dow
-             into mapping, path planning, obstacle avoidance and motor control <= change the heading to this???</p>
+        <p>The Navigation subsystem within the robot is broken down into 4 key aspects: Mapping, Path Planning, Obstacle Avoidance and Motor Control.</p>
         
         <h3>Mapping</h3>
         <p>
@@ -47,9 +46,8 @@
         </p>
         <h3>Obstacle Avoidance</h3>
         <p>
-            The LiDAR mounted on the top of the robot is used to improve odometry??, in order to make the autonomous drive more reliable. It also updates the map when it come
-            detects any obstacles, allowing for collision avoidance
-            Insert image of lidar + image of lidar mapping + talk about how this is integrated with rtabmap
+            The LiDAR mounted on the top of the robot integrates with the rtabmap package. It updates the global map when any obstacles are detected allowing for 
+            collision avoidance while also aiding odometry thus improving reliability of autonomous drive. [Insert image of lidar, image of lidar mapping]
         </p>
         <h3>Motor Control</h3>
         <p>
