@@ -37,7 +37,10 @@
             Role Based Access Control System (RBAC) was used. It enabled us to grant user-specific permissions and restrict access to the robot's compartments. 
             The compartments only unlock when the correct RFID tag is scanned. Every RFID tag has its own user, and the users are assigned to a group. 
             For peer to peer orders the RFID tags are assigned to groups instead. 
-            Admin is the superuser with all permissions. An order may only be edited or deleted only by the technician. Equipment can be ordered by nurses and doctors. Except for the admin, none of the users have access to the personal information of other employees.
+            Admin is the superuser with all permissions. Technicians, nurses and doctors are able to order, edit or delete their order. 
+            Maintenance is the only one that can access the robot avaliability and see information regarding its status. 
+            Inventory manager is the only one that can edit the inventory.
+            Except for the admin, none of the users have access to the personal information of other employees.
             The RBAC system has been integrated with the <a href="/Bring-It_Portfolio/SubSystems/UI.html">User Interface</a> sub-system.
             
         </p>
